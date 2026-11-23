@@ -1,6 +1,14 @@
 <div align="center">
 
-# ⚡ Hone Studio
+```ascii
+██╗  ██╗ ██████╗ ███╗   ██╗███████╗    ███████╗████████╗██╗   ██╗██████╗ ██╗ ██████╗ 
+██║  ██║██╔═══██╗████╗  ██║██╔════╝    ██╔════╝╚══██╔══╝██║   ██║██╔══██╗██║██╔═══██╗
+███████║██║   ██║██╔██╗ ██║█████╗      ███████╗   ██║   ██║   ██║██║  ██║██║██║   ██║
+██╔══██║██║   ██║██║╚██╗██║██╔══╝      ╚════██║   ██║   ██║   ██║██║  ██║██║██║   ██║
+██║  ██║╚██████╔╝██║ ╚████║███████╗    ███████║   ██║   ╚██████╔╝██████╔╝██║╚██████╔╝
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝    ╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝ 
+```
+
 ### *Authentic Technical Craft & Engineering Mastery — AI-Powered Interview Preparation Platform*
 
 [![Vercel Deployment](https://img.shields.io/badge/Deployed%20with-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
