@@ -42,7 +42,9 @@
 
 ---
 
-## 🚀 Key Features
+## 🚀 Live Production Deployments
+* **Frontend Application:** [https://frontend-phi-coral-35.vercel.app](https://frontend-phi-coral-35.vercel.app)
+* **Backend API:** [https://backend-kappa-beige-99.vercel.app](https://backend-kappa-beige-99.vercel.app)
 
 ### 🎙️ 1. Face-to-Face AI Mock Interview
 * **Dual-Feed Interactive Interface:** Live AI Interviewer persona with reactive audio waveform visualization alongside your real-time webcam feed.
