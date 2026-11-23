@@ -16,7 +16,7 @@ const mockInterviewRoutes = require('./routes/mockInterviewRoutes');
 const app = express();
 
 // Connect to MongoDB
-connectDB();
+connectDB().catch(err => console.error('MongoDB initial connection error:', err));
 
 // Middleware
 app.use(compression());
@@ -29,10 +29,20 @@ const limiter = rateLimit({
 app.use('/api/', limiter);
 
 app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:5173',
+  origin: true,
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
+
+// Ensure DB connection for serverless requests
+app.use(async (req, res, next) => {
+  try {
+    await connectDB();
+  } catch (e) {
+    console.error('DB middleware connection error:', e);
+  }
+  next();
+});
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Routes
