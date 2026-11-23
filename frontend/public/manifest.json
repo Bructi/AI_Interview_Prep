@@ -1,0 +1,48 @@
+{
+  "name": "Hone — AI Interview Preparation",
+  "short_name": "Hone",
+  "description": "AI-Powered Face-to-Face Mock Interview Studio, Learning Hub & Resume Studio Web App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050812",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Face-to-Face Mock Interview",
+      "short_name": "Mock Interview",
+      "description": "Start live AI face-to-face mock interview",
+      "url": "/mock-interview",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Learning Hub",
+      "short_name": "Learning",
+      "description": "Digestible bullet questions & smart study notes",
+      "url": "/learning",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Resume Studio",
+      "short_name": "Resume",
+      "description": "Analyze and optimize your resume with AI",
+      "url": "/resume",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Workspaces Dashboard",
+      "short_name": "Dashboard",
+      "description": "Track your interview prep progress",
+      "url": "/dashboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
+}
